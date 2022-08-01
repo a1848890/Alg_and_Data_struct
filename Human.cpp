@@ -16,7 +16,6 @@ char Human :: get_human_currentBet(){
 
 
 char Human :: take_and_set_input(){
-    cout << "Enter move: ";
     char temp_input;
     cin >> temp_input;
 

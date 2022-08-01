@@ -10,7 +10,6 @@ int main(){
     Human player1;
     Computer player2;
     // start here next time ... ... ... // 
-    char player1_currentBet = player1.take_and_set_input();
 
     Referee the_referee;
     char single_turn_result = the_referee.refGame(player1, player2);

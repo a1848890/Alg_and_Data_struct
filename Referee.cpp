@@ -10,7 +10,7 @@ Referee :: Referee(){}
 
 
 char Referee :: refGame(Human player1, Computer player2){
-    char player1_current = player1.get_human_currentBet();
+    char player1_current = player1.take_and_set_input();
     char player2_current = player2.set_and_get_currentBet();
     
     char result;

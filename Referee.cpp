@@ -21,7 +21,7 @@ char Referee :: refGame(Human player1, Computer player2){
     else if (player1_current == 'S') {
         result = 'L';
     }
-    else result = 'T';
+    else result = 'M';
 
     return result;
 }

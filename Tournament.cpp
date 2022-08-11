@@ -24,7 +24,7 @@ Tournament :: Tournament(){}
 
 Player* Tournament :: single_round(Player* player1, Player* player2){
     
-    int single_round_counter = 0;
+    
     
     Referee the_referee;
     int player1_win_counter = 0;
@@ -36,6 +36,10 @@ Player* Tournament :: single_round(Player* player1, Player* player2){
     for (int i=0; i<5; i++){
         char player1_currentBet = player1->set_and_get_currentBet();
         char player2_currentBet = player2->set_and_get_currentBet();
+        
+        tolower(player1_currentBet);
+        tolower(player2_currentBet);
+        
         char single_turn_result = the_referee.refGame(player1, player2);
         if (single_turn_result == 'W') player1_win_counter++;
         else if (single_turn_result == 'L') player2_win_counter++;

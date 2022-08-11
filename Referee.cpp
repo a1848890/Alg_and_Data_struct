@@ -24,7 +24,7 @@ char Referee :: refGame(Player* player1, Player* player2){
     else if (player1->get_currentBet() == 'S' && player2->get_currentBet() == 'S') result = 'T';
     
 
-    else result = 'X';
+    else result = 'T';
 
     return result;
 }

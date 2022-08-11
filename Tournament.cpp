@@ -20,7 +20,6 @@
 
 
 
-Tournament :: Tournament(){}
 
 Player* Tournament :: single_round(Player* player1, Player* player2){
     

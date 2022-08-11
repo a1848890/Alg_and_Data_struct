@@ -48,7 +48,7 @@ Player* Tournament :: single_round(Player* player1, Player* player2){
     if (player1_win_counter > player2_win_counter) return player1;
     else if (player1_win_counter < player2_win_counter) return player2;
     else {
-        return player1;   // check here, if player1 is the smallest index feed in this function
+        return player2;   // check here, if player1 is the smallest index feed in this function
     }
 }
 

@@ -34,11 +34,9 @@ Player* Tournament :: single_round(Player* player1, Player* player2){
     // declare a function in the player class as pure virtual in the player class, and then implement the pure virtual
     // function in the derived class
     for (int i=0; i<5; i++){
-        char player1_currentBet = player1->set_and_get_currentBet();
-        char player2_currentBet = player2->set_and_get_currentBet();
+        player1->set_and_get_currentBet();
+        player2->set_and_get_currentBet();
         
-        tolower(player1_currentBet);
-        tolower(player2_currentBet);
         
         char single_turn_result = the_referee.refGame(player1, player2);
         if (single_turn_result == 'W') player1_win_counter++;

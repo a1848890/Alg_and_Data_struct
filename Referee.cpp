@@ -9,9 +9,6 @@ Referee :: Referee(){}
 
 
 char Referee :: refGame(Player* player1, Player* player2){
-    char player1_current = player1->get_currentBet();
-    char player2_current = player2->get_currentBet();
-
     char result;
 
     if (player1->get_currentBet() == 'P' && player2->get_currentBet() == 'S') result = 'L';

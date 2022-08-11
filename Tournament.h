@@ -23,7 +23,6 @@ class Tournament{
     private:
 
     public:
-        Tournament();
         Player* run(array<Player*, 8>  competitors);
         Player* single_round(Player* player1, Player* player2);
 };

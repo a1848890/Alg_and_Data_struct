@@ -42,7 +42,7 @@ Player* Tournament :: single_round(Player* player1, Player* player2){
         if (single_turn_result == 'W') player1_win_counter++;
         else if (single_turn_result == 'L') player2_win_counter++;
         else if (single_turn_result == 'T') {}
-        else {cout << "Error in Tournament class\n";}
+        else {}
     }
 
     // decide the winner

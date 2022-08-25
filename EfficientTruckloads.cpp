@@ -14,9 +14,7 @@ int EfficientTruckloads :: mem_truckloads(int numCrates, int loadSize){
         return 1;
     }
 
-    if(truckTable.at(loadSize) == -1) {
-        truckTable.at(numCrates) = mem_truckloads(numCrates/2 + numCrates%2, loadSize) + mem_truckloads(numCrates/2, loadSize);
-    }
+    truckTable.at(numCrates) = mem_truckloads(numCrates/2 + numCrates%2, loadSize) + mem_truckloads(numCrates/2, loadSize);
 
     return truckTable.at(numCrates);
 

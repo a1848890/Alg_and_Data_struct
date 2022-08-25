@@ -11,6 +11,10 @@ Reverse :: Reverse(){}
 
 
 int Reverse :: reverseDigit(int n) {
+    
+    if ((int)n != n || n < 0) return -1; 
+
+    
     if(n<=10 && n >= -10) return n;
 
     int length=0;

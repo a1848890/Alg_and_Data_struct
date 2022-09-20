@@ -13,11 +13,19 @@ Individual :: Individual(int length){
         _binary_string = _binary_string + char_zero;
     }
 }
-
+/*
 Individual :: Individual(string binary_string){
     _length = binary_string.length();
     _binary_string = binary_string;
 }
+*/
+
+Individual :: Individual(string binary_string){
+    Individual *new_individual = new Individual(binary_string.length());
+    new_individual->_binary_string = binary_string;
+}
+
+
 
 
 string Individual :: getString(){

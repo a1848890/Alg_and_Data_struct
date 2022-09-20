@@ -7,4 +7,4 @@ using std::string;
 
 
 Mutator :: Mutator(){}
-
+Mutator :: ~Mutator(){}

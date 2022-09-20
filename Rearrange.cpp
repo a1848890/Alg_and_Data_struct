@@ -29,3 +29,6 @@ Individual Rearrange :: mutate(Individual new_individual, int k){
 
     return *after_change;
 }
+
+
+Rearrange :: ~Rearrange(){}

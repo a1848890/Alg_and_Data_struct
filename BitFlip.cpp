@@ -13,3 +13,6 @@ Individual BitFlip :: mutate(Individual new_individual, int k){
 
     return *after_change;
 }
+
+
+BitFlip :: ~BitFlip(){}

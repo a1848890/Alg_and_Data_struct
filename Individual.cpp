@@ -88,4 +88,4 @@ int Individual :: getMaxOnes(){
 }
 
 
-
+Individual :: ~Individual(){}

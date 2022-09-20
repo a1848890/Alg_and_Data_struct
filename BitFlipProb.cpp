@@ -8,12 +8,14 @@
 //#include<ctime>
 
 
-BitFlipProb :: BitFlipProb(){}
+bool BitFlipProb :: flip(double probablity){
+    return rand()%100 < (probablity * 100);
+}
 
-//BitFlipProb :: BitFlipProb(double probability) : _probability(probability){}
+BitFlipProb :: BitFlipProb(double probability) : _probability(probability){}
 
 Individual* BitFlipProb :: mutate(Individual *new_individual, int k){
-    k++;
+    _probablity = 0.8
     //for (k=0; k<new_individual->getLength(); k++){
     //    bool flip = (rand() % 100 + 1) < 100*_probability;
     //    if (flip) new_individual->flipBit(k);

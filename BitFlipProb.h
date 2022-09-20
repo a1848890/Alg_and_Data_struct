@@ -8,7 +8,7 @@ class BitFlipProb : public Mutator{
         double _probability;
     public:
         BitFlipProb();
-        BitFlipProb(double probability);
+        //BitFlipProb(double probability);
         Individual* mutate(Individual *new_individual, int k);
 
         ~BitFlipProb();

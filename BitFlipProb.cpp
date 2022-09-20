@@ -19,3 +19,5 @@ Individual* BitFlipProb :: mutate(Individual *new_individual, int k){
     }
     return new_individual;
 }
+
+BitFlipProb :: ~BitFlipProb(){}

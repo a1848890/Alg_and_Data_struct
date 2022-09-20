@@ -10,3 +10,5 @@ Individual* BitFlip :: mutate(Individual *new_individual, int k){
     new_individual -> flipBit(index);
     return new_individual;
 }
+
+BitFlip :: ~BitFlip(){}

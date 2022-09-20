@@ -18,6 +18,7 @@ class Individual{
         int getLength();
         int getMaxOnes();
         void flipBit(int pos);
+    ~Individual();
 };
 
 

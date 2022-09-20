@@ -35,7 +35,8 @@ string Individual :: getString(){
 
 int Individual :: getBit(int pos){
     if (pos < 0 || pos >= _length) return -1;
-    return (int)_binary_string[pos] - 48;
+    int result = _binary_string[pos] - 48;
+    return result;
 }
 
 

@@ -7,8 +7,8 @@ class BitFlipProb : public Mutator{
     private:
         double _probability;
     public:
-        BitFlipProb();
-        //BitFlipProb(double probability);
+        bool flip(double probablity);
+        BitFlipProb(double probability);
         Individual* mutate(Individual *new_individual, int k);
 
         ~BitFlipProb();

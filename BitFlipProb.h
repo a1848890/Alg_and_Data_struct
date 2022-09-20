@@ -2,9 +2,6 @@
 #include"Individual.h"
 #include"Mutator.h"
 #include<string>
-#include<random>
-#include<cstdlib>
-#include<ctime>
 
 class BitFlipProb : public Mutator{
     private:

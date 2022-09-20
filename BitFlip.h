@@ -7,5 +7,6 @@ class BitFlip : public Mutator{
     public:
         BitFlip();
         Individual* mutate(Individual *new_individual, int k);
+    ~BitFlip();
 };
 

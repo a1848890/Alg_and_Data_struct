@@ -14,6 +14,6 @@ class BitFlipProb : public Mutator{
         BitFlipProb(double probability);
         Individual mutate(Individual new_individual, int k);
 
-
+        ~BitFlipProb();
 };
 

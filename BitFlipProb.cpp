@@ -10,7 +10,7 @@
 
 BitFlipProb :: BitFlipProb(){}
 
-BitFlipProb :: BitFlipProb(double probability) : _probability(probability){}
+//BitFlipProb :: BitFlipProb(double probability) : _probability(probability){}
 
 Individual* BitFlipProb :: mutate(Individual *new_individual, int k){
     k++;

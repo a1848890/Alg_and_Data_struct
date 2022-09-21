@@ -15,6 +15,9 @@ Individual :: Individual(int length){
 
 Individual :: Individual(string binary_string){
     _length = binary_string.length();
+    for (int i=0; i<_length; i++){
+    copy[i] = binary_string[i];
+    }
     _binary_string = binary_string;
 }
 

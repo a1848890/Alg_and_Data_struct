@@ -9,7 +9,6 @@ class Individual{
         string _binary_string;
         int _length;
     public:
-        Individual();
         Individual(string binary_string);
         Individual(int length);
 

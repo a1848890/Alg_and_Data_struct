@@ -2,7 +2,6 @@
 #include<string>
 using std::string;
 
-Individual :: Individual(){}
 
 
 Individual :: Individual(int length){

@@ -78,5 +78,18 @@ using namespace std;
     }
     cout << endl;
 
+
+    vector<int> v3 = { -5, -8, -4, -2, -1};
+    vector<int> v3_sorted = my_quicksort.sort(v3);
+    bool _found3 = my_recursivebinarysearch.search(v3_sorted, 1);
+    if (_found3) cout << "true ";
+    else cout << "false ";
+    for (int i=0; i<v3_sorted.size(); i++){
+        cout << v3_sorted[i] << " ";
+    }
+    cout << endl;
+
+        
+        
     return 0;
 }

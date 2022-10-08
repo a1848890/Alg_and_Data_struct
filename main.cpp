@@ -66,8 +66,8 @@ using namespace std;
     bool _found = my_recursivebinarysearch.search(sorted_v, 1);
     if (_found) cout << "true ";
     else cout << "false ";
-    for (int i=0; i<v.size(); i++){
-        cout << v[i] << " ";
+    for (int i=0; i<sorted_v.size(); i++){
+        cout << sorted_v[i] << " ";
     }
     cout << endl;
 

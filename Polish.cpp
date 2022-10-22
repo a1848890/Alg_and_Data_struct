@@ -60,7 +60,7 @@ string Polish::convert(string expression){
 
         if (c == "+" || c == "-" || c == "*" || c == "/"){
             while(strStack.size() < 2){
-                return "1Error";
+                return "Error";
             }
 
             counter++;
@@ -131,7 +131,7 @@ string Polish::convert(string expression){
     if (count - counter == counter){
         return strStack.top() + " " + "=" + " " + to_string(calStack.top());
     }else{
-        return "0Error";
+        return "Error";
     }
     
     

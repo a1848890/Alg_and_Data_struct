@@ -77,14 +77,14 @@ int define_operation(string the_operator, int x, int y){
     cout << integer_array[0];
     for (int i=1; i<count; i++){
         if (i == 1)
-        cout << operator_array[count_operator-i] << integer_array[i] << ")";
+        cout << " " << operator_array[count_operator-i] << " " << integer_array[i] << ") ";
         else 
-        cout << operator_array[count_operator-i] << integer_array[i] ;
+        cout <<  operator_array[count_operator-i] << " " << integer_array[i];
     }
     
     
     
-    cout  <<"=";
+    cout  << " = ";
     cout << temp_result << endl;
     /* test input*/
  /*   for (int i=0; i<4; i++){

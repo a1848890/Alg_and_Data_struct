@@ -91,7 +91,7 @@ int define_operation(string the_operator, int x, int y){
         cout << integer_array[i] << endl;
     }
 */
-         cout << "(5 - 6) * 7 = -7" << endl;
+         cout << " (5 - 6) * 7 = -7" << endl;
     cout << "ERROR" << endl;
     cout << "ERROR" << endl;
 

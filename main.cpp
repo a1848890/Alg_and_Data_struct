@@ -72,7 +72,7 @@ int define_operation(string the_operator, int x, int y){
         operator_iter--;
         //cout << "temp: " << temp_result << "\n\n"; 
     }
-    cout << "(";
+    cout << " (";
     cout << integer_array[0];
     for (int i=1; i<count; i++){
         if (i == 1)

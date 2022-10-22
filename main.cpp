@@ -19,7 +19,6 @@ int define_operation(string the_operator, int x, int y){
     else if (the_operator == "*") return x*y;
     else if (the_operator == "/") return x/y;
     else {
-        cout << "DEFINE OPERATOR ERROR\n";
         return 0;
     }
 }
@@ -41,7 +40,7 @@ int define_operation(string the_operator, int x, int y){
         cin >> str;
         if (isNum(str) == false){ // if the input is not number
             if (str != "+" && str != "-" && str != "*" && str != "/") {
-                cout << "ERROR"; // if the input is illigeal operator
+                cout << "ERROR" << endl; // if the input is illigeal operator
                 break;
             }
             else {
@@ -56,7 +55,7 @@ int define_operation(string the_operator, int x, int y){
     }
    
     if (count_operator != count - 1) {
-        cout << "ERROR";
+        cout << "ERROR" << endl;
         return 0;
     }
 

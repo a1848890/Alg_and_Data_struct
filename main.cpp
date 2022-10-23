@@ -5,7 +5,6 @@
 using namespace std;
 
 int main(){
-
     string expression;
     Polish p;
 
@@ -25,10 +24,7 @@ int main(){
             cout << "Error";
             return 0;
         }
-        
-        
     }
-    
     cout << p.convert(expression) << endl;
 
     return 0;

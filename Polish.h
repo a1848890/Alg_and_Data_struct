@@ -1,5 +1,4 @@
-#ifndef POLISH_H
-#define POLISH_H
+#pragma once
 
 #include <iostream>
 #include <stack>
@@ -12,9 +11,6 @@ private:
     
 public:
     Polish();
-    // stack<string> left(string expression);
-    // stack<long> right(string expression);
     string convert(string expression);
     ~Polish();
 };
-#endif
